@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Britchi Daniel</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">  
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        <label for="new-task">List</label>
+        <input id="new-task" type="text">
+        <button>Add Item</button>
+      </p>
+      
+    <label id="stuff">
+      <h3 id="stuff">To-Do</h3>
+    </label>
+      <ul id="incomplete-tasks">
+        <li>
+          <input type="checkbox">
+          <label>Wash Car</label>
+          <input type="text">
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </li>
+        <li class="editMode">
+          <input type="checkbox">
+          <label>Walk Dog</label>
+          <input type="text" value="Go Shopping">
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </li>
+      </ul>
+      <label>
+      <h3 id="stuff">Completed</h3>
+    </label>
+      <ul id="completed-tasks">
+        <li>
+          <input type="checkbox" checked="">
+          <label>Do this lab</label>
+          <input type="text">
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
